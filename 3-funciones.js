@@ -75,7 +75,7 @@
 
 // 4.3 Escribe una función flecha llamada `calcularArea` que reciba el radio de un círculo y devuelva el área del círculo. Usa la fórmula A = π * r².
 const calcularArea = radio => {
-   return π*radio**2 // Tu código aquí
+   return Math.PI*radio**2 // Tu código aquí
 };
 
 // 5. Recursividad
