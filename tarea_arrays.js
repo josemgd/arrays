@@ -87,7 +87,7 @@ function findMinMaxPages(books) {
     let menos = books.indexOf(min)
     let array =[menos,mayor]
     return array // Tu código aquí
-
+}
 
 const libros = [350, 120, 540, 275, 390, 130, 670];
 const resultado = findMinMaxPages(libros);
